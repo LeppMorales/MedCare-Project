@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mobile"
+    tools:context=".Homepage">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="323dp"
+                android:layout_height="58dp"
+                android:fontFamily="@font/leytonpersonal"
+                android:gravity="center"
+                android:text="Welcome!"
+                android:layout_gravity="center"
+                android:textColor="#c69320"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_height="44dp"
+                android:fontFamily="@font/leytonpersonal"
+                android:gravity="center"
+                android:text="Medcare Finder Apps"
+                android:layout_gravity="center"
+
+                android:textColor="#c69320"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="267dp"
+                android:layout_height="41dp"
+                android:gravity="center"
+                android:text="Text Name"
+                android:layout_gravity="center"
+
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="267dp"
+                android:layout_height="41dp"
+                android:gravity="center"
+                android:text="Text Email"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvCoord"
+                android:layout_width="267dp"
+                android:layout_height="41dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"
+                android:text="Coordinate"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvAddr"
+                android:layout_width="246dp"
+                android:layout_gravity="center"
+
+                android:layout_height="124dp"
+                android:gravity="center"
+                android:text="Address"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="215dp"
+                android:layout_height="49dp"
+                android:layout_gravity="center"
+                android:background="#dc143c"
+                android:fontFamily="@font/poppins_medium"
+                android:text="About Us"
+                android:textColor="#2D3142"
+                android:textStyle="bold"
+                app:backgroundTint="#dc143c" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="215dp"
+                android:layout_height="49dp"
+                android:layout_gravity="center"
+                android:background="#dc143c"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Hospital Location"
+                android:layout_marginTop="16dp"
+
+                android:textColor="#2D3142"
+                android:textStyle="bold"
+                app:backgroundTint="#dc143c" />
+
+            <Button
+                android:id="@+id/signout"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="215dp"
+                android:layout_height="49dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="#dc143c"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Sign Out"
+                android:textColor="#2D3142"
+                android:textStyle="bold"
+                app:backgroundTint="#dc143c" />
+
+            <Button
+                android:id="@+id/btnCheckIn"
+                android:layout_width="215dp"
+                android:layout_height="49dp"
+                android:layout_gravity="center"
+                android:background="#dc143c"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Check"
+                android:layout_marginTop="16dp"
+
+                android:textColor="#2D3142"
+                android:textStyle="bold"
+                app:backgroundTint="#dc143c" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
